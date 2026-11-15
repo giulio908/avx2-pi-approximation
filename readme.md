@@ -39,15 +39,3 @@ Run the executable:
 
 *(Note: By default, `STEPS` is set to $2^{24}$ (`16,777,216` iterations). You can modify the `STEPS` constant in the source file to test different workloads or non-multiples of 4 to verify tail-masking accuracy.)*
 
-## Sample Output
-
-```text
- pi (base): 3.14159265358979
-Finished in 0.04215 seconds [Process CPU time] 
-Finished in 0.04218 seconds [Wall time]
-
-
- pi (avx2): 3.14159265358979
-Finished in 0.01104 seconds [Process CPU time] 
-Finished in 0.01106 seconds [Wall time]
-```
